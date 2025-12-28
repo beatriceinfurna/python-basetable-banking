@@ -67,12 +67,12 @@ This table is suitable for:
 ```text
 python-basetable-banking/
 ├── data/
-│   ├── raw/        # Original banking tables (not fully included)
-│   └── processed/  # Final basetable
+│   └── processed/          # Final client-level base table used for analysis
 ├── notebooks/
 │   └── 01_basetable_creation.ipynb
 ├── report/
-│   └── final_report.pdf
+│   ├── final_report.pdf    # Final project report
+│   └── visualizations/     # Figures generated during the analysis
 └── README.md
 ```
 ---
