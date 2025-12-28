@@ -1,33 +1,36 @@
 # Data
 
-This folder contains the datasets used in the project, organized according to their role in the data processing pipeline.
+This folder contains the **final dataset (basetable)** used in the project after data cleaning, aggregation, and feature engineering.
 
-All data used in this project are **synthetic banking data** provided for academic purposes.
+The original raw datasets are **not included in this repository**, but they are **publicly available** and can be accessed at the following link:
+
+🔗 https://relational.fel.cvut.cz/dataset/Financial
 
 ---
 
 ## Folder Structure
 
 - **processed/**  
-  Contains the cleaned and transformed datasets generated during the data preparation phase.  
-  These datasets are used to build the final analytical basetable and support exploratory and descriptive analyses.
+  Contains the **final basetable** used for analysis, visualization, and reporting.  
+  This dataset was created by combining and transforming multiple raw tables from the original financial database.
 
 - **README.md**  
-  This file documents the data structure and explains how datasets are organized and used throughout the project.
+  Documentation of the data organization and data sourcing.
 
 ---
 
-## Data Usage
+## Reproducibility
 
-- Raw input files are read and processed in the Jupyter notebook using **relative paths**
-- Data cleaning, feature engineering, and aggregation steps are performed programmatically
-- The final basetable is saved in the `processed/` folder and reused for analysis and visualization
-
-This structure ensures reproducibility and makes the project easy to run and understand for external users.
+- The repository does **not include the raw data**
+- Full reproducibility would require downloading the original datasets from the source above
+- The project focuses on **analysis and insights based on the final basetable**, which is provided for transparency and educational purposes
 
 ---
 
-## Notes
+## Data Source
 
-No sensitive or real customer information is included in this repository.
+The data come from a **public synthetic financial dataset** commonly used for educational and research purposes.  
+The dataset represents anonymized banking data and **does not contain real customer information**.
 
+Source:  
+https://relational.fel.cvut.cz/dataset/Financial
