@@ -74,7 +74,8 @@ python-basetable-banking/
 ├── report/
 │   └── final_report.pdf
 └── README.md
-
+```
+---
 ## Tools & Technologies
 
 - Python
@@ -82,6 +83,8 @@ python-basetable-banking/
 - numpy
 - Jupyter Notebook
 
-##Author
+---
+
+## Author
 Individual academic project developed by Beatrice Infurna.
 
